@@ -1,0 +1,11 @@
+:root {
+    --dark-background: #1F2937;
+    --off-white: #3882F6;
+    --light-gray: #E5E7EB;
+}
+
+body {
+    width: 720px;
+    margin: 0px auto;
+}
+

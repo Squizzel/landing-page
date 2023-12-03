@@ -1,7 +1,12 @@
 :root {
     --dark-background: #1F2937;
-    --off-white: #3882F6;
+    --light-blue: #3882F6;
+    --off-white: #f9faf8;
     --light-gray: #E5E7EB;
+}
+
+html {
+    font-size: 18px;
 }
 
 body {
@@ -9,3 +14,33 @@ body {
     margin: 0px auto;
 }
 
+main {
+    background-color: var(--dark-background);
+}
+
+main header {
+   display: flex;
+   justify-content: space-between;
+   color: var(--light-gray)
+}
+
+main header h1#head-logo {
+    display: block;
+    color: var(--off-white);
+    padding: 0.5rem;
+    margin: 0px;
+}
+
+main header nav {
+    padding: .5rem;
+    margin: 0;
+}
+
+main header nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+main header nav ul {
+    list-style: none;
+}

@@ -127,7 +127,7 @@ section#content-highlights ul li p {
 
 section#big-quote {
     background-color: var(--light-gray);
-    padding: 50px var(--content-padding);
+    padding: 50px 140px;
 }
 
 section#big-quote blockquote {
@@ -143,6 +143,55 @@ section#big-quote blockquote footer {
     font-weight: 700;
 }
 
+section#call-to-action {
+    padding: 50px var(--content-padding);
+}
+
+section#call-to-action>div {
+    display: flex;
+    background-color: var(--light-blue);
+    padding: 40px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color: var(--off-white);
+}
+
+section#call-to-action div>div:first-of-type {
+    
+}
+
+section#call-to-action div>div:first-of-type h3 {
+    font-size: 1.1rem;
+    margin: 0px;
+}
+
+section#call-to-action div>div:first-of-type p {
+    font-size: 0.75rem;
+    margin: 5px 0;
+    color: var(--light-gray);
+} 
+
+section#call-to-action div>div:last-of-type {
+    display: flex;
+    align-items: center;
+}
+
+section#call-to-action div>div:last-of-type .sign-up {
+    border: 2px solid var(--off-white);
+    margin: 0px;
+}
+
+body>footer {
+    background-color: var(--dark-background);
+    color: var(--off-white);
+    font-size: 0.7rem;
+}
+
+body>footer p {
+    padding: 20px 0px;
+    margin: 0px;
+    text-align: center;
+}
 
 .sign-up {
     font-size: 0.8em;
